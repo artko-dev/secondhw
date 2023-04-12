@@ -1,10 +1,11 @@
+/* Make a primary settings */
 * {
    padding: 0;
    margin: 0 auto;
-   
    font-family: sans-serif;
 }
 
+/* header style */
 .header_bar {
    background-color: rgb(63, 63, 206);
    color: #fff;
@@ -15,6 +16,7 @@
    height: 80px;
 }
 
+/* Style for H1 */
 .title {
    margin: 0 auto;
    z-index: 3;
@@ -23,6 +25,7 @@
    width: 40vw;
 }
 
+/* Set a position and style for a toggle */
 .header_button {
    width: 50px;
    height: 50px;
@@ -37,6 +40,7 @@
 
 }
 
+/* Style for a nav bar */
 .header_nav {
    margin-left: -10px;
    background-color: rgb(63, 63, 206);
@@ -49,10 +53,12 @@
    padding: 70px 0 0 30px;
 }
 
+/* Style for active nav bar */
 .header_nav.active {
    top: 0vh;
 }
 
+/* Change style for a list */
 li {
    list-style-type: none;
    color: #fff;
@@ -61,6 +67,7 @@ li {
    padding-top: 20px;
 }
 
+/* Set a style for a logo */
 .logo>img {
    width: 90px;
    position: absolute;
@@ -72,15 +79,18 @@ li {
    bottom: 0;
 }
 
+/* Set a maximum width for a page */
 main {
    max-width: 1200px;
 }
 
+/* Style for a first screen picture canoe.jpeg */
 .main-img {
    width: 100%;
    height: auto;
 }
 
+/* Style for a main title in a main section H2 */
 .main-title {
    font-size: 3vw;
    font-weight: 900;
@@ -88,40 +98,48 @@ main {
    margin-top: 10px;
 }
 
+/* Set a line  */
 hr {
    margin-top: 10px;
 }
 
+/*Style for a separate tours */
 .tours-city {
    margin-top: 40px;
    display: inline-block;
 }
 
+/* Style for a title in a tours H3 */
 .tours-city h3 {
    font-size: 2vw;
    font-weight: normal;
 }
 
+/* Set a line under title of tours  */
 .tours-city hr {
    margin-top: 0;
    border: 1px solid rgb(4, 136, 4)
 }
 
+/* Settings for a links in tours name H3  */
 .tours a:link, a:visited, a:active {
    color: rgb(4, 136, 4);
    text-decoration: none;
 }
 
+/* Set different style for a date in a tours */
 .tours-date {
    margin-top: 20px;
 }
 
+/* Set a settings for a titles H4 "Summary" */
 .tours-title {
    margin-top: 20px;
    font-size: 1.3vw;
    font-weight: 600;
 }
 
+/* Changing styles for a different screen size */
 @media (max-width: 800px) {
    .title {
       font-size: 26px;
