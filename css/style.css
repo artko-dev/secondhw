@@ -11,7 +11,7 @@
    color: #fff;
    /*padding: 10px;*/
    position: relative;
-   box-shadow: 0px 20px 10px rgba(79, 78, 78, 0.795);
+   box-shadow: 0px 10px 10px rgba(79, 78, 78, 0.795);
    width: 100%;
    height: 80px;
 }
@@ -165,7 +165,7 @@ hr {
    width: 100%;
    margin: 0 10%;
    padding: 40px 0;
-   background-color: #054d99;
+   background-color: rgb(63, 63, 206);
 }
 
 .footer_item {
@@ -213,20 +213,36 @@ hr {
    }
 }
 
+/* ----- ----- ------ Styling for php ----- ----- ------ */
+.main_php {
+   display: flex;
+   flex: 1 1 auto;
+   flex-wrap: nowrap;
+   min-height: 50vh;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   padding-bottom: 60px;
+   text-align: center;
+}
 
-/* ----- ----- ------ Login form ----- ----- ------ */
+.home_link {
+   margin-top: 5vh;
+}
+
+/* ----- ----- ------ Login page ----- ----- ------ */
 .login_form {
-   background-color: #eee;
+   background-color: #e1e1e1;
    height: 20vh;
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
    padding: 0 20px;
 
 }
 
 .login_form input {
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
    text-align: center;
    height: 3vh;
    font-size: 2vh;
@@ -234,17 +250,17 @@ hr {
 
 
 .login_form h3 {
-   color: #054d99;
+   color: rgb(63, 63, 206);
    text-transform: capitalize;
    font-size: 25px;
    margin: 20px 0;
 }
 
 .login_form .form-btn {
-   background: #054d99;
+   background: rgb(63, 63, 206);
    color: #fff;
    text-transform: capitalize;
-   font-size: 3vh;
+   font-size: 2vh;
    cursor: pointer;
    height: 5vh;
    border-radius: 5px;
@@ -254,102 +270,123 @@ hr {
 
 .login_form .form-btn:hover {
    color: #fff;
-   background-color: rgb(5, 176, 119);
+   background-color: rgb(1, 1, 249);
 }
 
 .login_form a {
    color: #054d99;
-   font-size: 3vh;
+   font-size: 2vh;
 }
 
 .login_form a:hover {
-   color: rgb(5, 176, 119);
-}
-
-.login_form .form_gender {
-   width: 5vh;
-   font-size: 2vh;
-   background-color: #eee;
+   color: rgb(1, 1, 249);
 }
 
 .login_form #role {
    width: 8vh;
    font-size: 2vh;
-   background-color: #eee;
 }
 
-/*============================problem.php=========================*/
+/* ----- ----- ------ User page ----- ----- ------ */
 
-.problems_form {
+.choose_form {
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   background-color: #eee;
+   background-color: #e1e1e1;
    height: 50vh;
    width: 100vh;
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
    padding: 0 20px;
 
 }
 
-.problems_form h1 {
-   color: #054d99;
+.choose_form h1 {
+   color: rgb(63, 63, 206);
    margin: 10px 0;
 }
 
-.problems_form a {
-   background: #054d99;
+.choose_form a {
+   background: rgb(63, 63, 206);
    color: #fff;
+   text-decoration: none;
    padding: 1.3vh 1.3vh;
-   text-transform: capitalize;
    font-size: 2vh;
    cursor: pointer;
    height: 5vh;
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
    width: 28vh;
    margin: 0 10px;
 }
 
-.problems_form .btn {
+.choose_form .btn {
    margin: 20px 0;
-
 }
 
-.problems_form a:hover {
+.choose_form a:hover {
    color: #fff;
-   background-color: rgb(5, 176, 119);
+   background-color: rgb(1, 1, 249);
 }
 
+/* ----- ----- ------ Not working page ----- ----- ------ */
+.eror_form {
+   padding: 20px;
+   background-color: #eee;
+   height: 50vh;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   vertical-align: middle;
+}
 
+.eror_form h1 {
+   font-size: 30px;
+   text-transform: capitalize;
+   margin-top: 50px;
+   color: rgb(63, 63, 206);
+}
 
-/*============================new account.php=========================*/
+.eror_form p {
+   line-height: 30vh;
+}
+
+.eror_form a {
+   font-size: 2.5vh;
+   color: rgb(63, 63, 206);
+   margin: 0 10px;
+}
+
+.eror_form a:hover {
+   color: rgb(1, 1, 249);
+
+}
+
+/* ----- ----- ------ New account page ----- ----- ------ */
 
 .account_form {
    padding: 20px;
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
    background: #fff;
    text-align: center;
-   width: 500px;
-   background-color: #eee
+   width: 600px;
+   background-color: #e1e1e1
 }
 
 .account_form h3 {
    font-size: 30px;
-   text-transform: capitalize;
    margin-bottom: 10px;
-   color: #054d99;
+   color: rgb(63, 63, 206);
 }
 
-.account_form form input,
-.account_form form select {
+.account_form form input, .account_form form select {
    width: 100%;
    padding: 10px 15px;
    font-size: 16px;
-   margin: 8px 0;
+   padding: 10px 0;
+   margin-bottom: 10px;
    background: #fff;
    border-radius: 5px;
 }
@@ -360,7 +397,7 @@ hr {
 }
 
 .account_form .form-btn {
-   background: #054d99;
+   background: rgb(63, 63, 206);
    color: #fff;
    text-transform: capitalize;
    font-size: 20px;
@@ -368,128 +405,67 @@ hr {
 }
 
 .account_form form .form-btn:hover {
-   background: #05990c;
+   background: rgb(1, 1, 249);
    color: #fff;
 }
 
 .account_form form p {
    margin-top: 10px;
    font-size: 20px;
-   color: #555;
+   color: #5b5b5b;
 }
 
 .account_form form a {
-   color: #054d99;
+   color: #0857ac;
    margin: 0 10px;
 }
 
 .account_form form a:hover {
-   color: #05990c;
+   color: rgb(1, 1, 249);
 
 }
 
 .account_form a {
-   color: #054d99;
+   color: #0857ac;
    font-size: 20px;
 }
 
 .account_form a:hover {
-   color: #05990c;
+   color: rgb(1, 1, 249);
 
 }
 
+/* ----- ----- ------ Rest password ----- ----- ------ */
 
-
-/*============================send_email.php=========================*/
-.sendemail_form {
-   padding: 20px;
-   background-color: #eee;
-   height: 20vh;
-   border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-}
-
-.sendemail_form-msg {
-   margin: 10px 0 0 0;
-}
-
-.sendemail_form a {
-   background: #054d99;
-   color: #fff;
-   padding: 1.3vh 1.3vh;
-   text-transform: capitalize;
-   font-size: 2vh;
-   cursor: pointer;
-   height: 5vh;
-   border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-   width: 28vh;
-   margin: 20px 0;
-}
-
-/*============================isnt_working.php=========================*/
-.notwork_form {
-   padding: 20px;
-   background-color: #eee;
-   height: 50vh;
-   border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
-}
-
-.notwork_form h1 {
-   font-size: 30px;
-   text-transform: capitalize;
-   margin-bottom: 10px;
-   color: #054d99;
-}
-
-.notwork_form a {
-   font-size: 2.5vh;
-   color: #054d99;
-   margin: 0 10px;
-}
-
-.notwork_form a:hover {
-   color: #05990c;
-
-}
-
-
-/*============================lost_password.php=========================*/
-
-.password_form {
-   padding: 20px;
+.lost_pas {
+   padding: 100px;
    background-color: #eee;
    height: 40vh;
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-
-.password_form h1 {
+.lost_pas h1 {
    font-size: 30px;
    text-transform: capitalize;
    margin-bottom: 10px;
-   color: #054d99;
+   color: rgb(63, 63, 206);
 }
 
-.password_form p {
-   margin: 1vh;
+.lost_pas p {
+   line-height: 10vh;
+   margin: 2vh;
 }
 
-
-
-.password_form #email {
+.lost_pas #email {
    border-radius: 5px;
    width: 20vh;
    height: 3vh;
    text-align: center;
 }
 
-
-
-.password_form #btn {
-   background: #054d99;
+.lost_pas #btn {
+   background: rgb(63, 63, 206);
    color: #fff;
    border-radius: 5px;
    text-transform: capitalize;
@@ -500,37 +476,101 @@ hr {
    cursor: pointer;
 }
 
-.password_form #btn:hover {
-   background-color: #05990c;
+.lost_pas #btn:hover {
+   background-color: rgb(1, 1, 249);
 }
 
-.password_form a {
-   color: #054d99;
+.lost_pas a {
+   color: rgb(63, 63, 206);
 }
 
-.password_form a:hover {
-   color: #05990c;
+.lost_pas a:hover {
+   color: rgb(1, 1, 249);
 }
 
-/*============================logout.php=========================*/
-
-.logout_form {
-   padding: 20px;
+/* ----- ----- ------ send email page ----- ----- ------ */
+.sendemail {
+   padding: 100px;
    background-color: #eee;
    height: 20vh;
    border-radius: 5px;
-   box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.logout_form h1 {
-   color: #054d99;
-   margin: 0 0 30px 0;
+.sendemail_link {
+   margin-top: 50px;
 }
 
-.logout_form a {
-   color: #054d99;
+.sendemail a {
+   background: rgb(63, 63, 206);
+   color: #fff;
+   padding: 1.3vh 1.3vh;
+   text-transform: capitalize;
+   font-size: 2vh;
+   cursor: pointer;
+   height: 5vh;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   width: 28vh;
+   margin: 20px 0;
+   text-decoration: none;
 }
 
-.logout_form a:hover {
-   color: #05990c;
+.sendemail a:hover {
+   background: rgb(1, 1, 249);
 }
+
+/* ----- ----- ------ Logout ----- ----- ------ */
+
+.logout {
+   padding: 100px;
+   background-color: #eee;
+   height: 20vh;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout h1 {
+   color: rgb(63, 63, 206);
+   margin: 0 0 3vh 0;
+}
+
+.logout p {
+   margin-top: 5vh;
+}
+
+.logout a {
+   color: rgb(63, 63, 206);
+}
+
+.logout a:hover {
+   color: rgb(1, 1, 249);
+}
+
+/* ----- ----- ------ Contact ----- ----- ------ */
+
+.contact {
+   padding: 100px;
+   background-color: #eee;
+   height: 20vh;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+   color: rgb(63, 63, 206);
+   margin: 0 0 3vh 0;
+}
+
+.contact p {
+   line-height: 2vh;
+}
+
+.contact a {
+   color: rgb(63, 63, 206);
+}
+
+.contact a:hover {
+   color: rgb(1, 1, 249);
+}
+

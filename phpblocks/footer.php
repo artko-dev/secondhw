@@ -9,7 +9,7 @@
 				</div>
 			</div>
 			<div class="footer_item">
-				<div class="footer_links footer_form">
+				<div class="footer_links">
 					<h3>Links</h3>
 					<ul>
 						<li><a href="index.php">Home</a></li>
