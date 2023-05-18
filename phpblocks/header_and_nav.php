@@ -7,7 +7,7 @@
             <li>
                <a href="index.php">Home</a></li>
             <li>
-               <a href="#">Book Trip</a></li>
+               <a href="admin-add.php">Book Trip</a></li>
             <li>
                <a href="login.php">Admin login</a></li>
          </ul>
